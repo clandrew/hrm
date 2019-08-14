@@ -1,0 +1,20 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Maximization Room --
+-- size: 10/10 --
+-- speed: 34/34 --
+
+a:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    SUB      0
+    JUMPN    b
+    ADD      0
+    JUMP     c
+b:
+    COPYFROM 0
+c:
+    OUTBOX  
+    JUMP     a
+
+

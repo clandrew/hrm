@@ -1,0 +1,29 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Equalization Room --
+-- size: 9/9 --
+-- speed: 28/27 --
+
+a:
+b:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    SUB      0
+    JUMPZ    c
+    JUMP     a
+c:
+    COMMENT  0
+    COPYFROM 0
+    OUTBOX  
+    JUMP     b
+
+
+DEFINE COMMENT 0
+eJyLZ2BgWKl8q+GU3q0GT/1z5Z76mbGn9FKjLujMD7uhOT/sqYpadI7SmvgPCqVplbKpHVayR+f/kD23
+9INCzIZM5cdbpDRX7AjRfrxlsvb0NUCjGK477s2e7pibEGufm/DI9mihot38Fjn7Nb0RjjunXXH6M8Pb
+7c+MIx5V0xm9tky29plcbe0zP4zZc0lkq8eKmC1+n1M2+v/JMghIfKgb+PjRvqQlj3cnKz3ancx7+W/S
+wVMMSX+Ogew4F7Mipi8mov507JL2v0ks83+kdC3Oyexa/DTbfvaC3Nc98nm3Gu7nGqWA1LJUZMY6VyyJ
+/F95K8i47pLP2oZLPsktz6Pl2krTZrWH1ER0vO+P6OhfBlIr1xZQqdDKUbK0ua3oS+3Rwl3V58r/V85u
+ZKzU62es3Dntf+XBORU17gvXNpxbmtp8bmlyS9fiRS1tCyB6Y9TEOgXlOPr6ZJwmhCj8npSgWTK11OLD
+tC73D9NKp+RPl1yXNXPNbtXZhftvzzM6MHHR610Mo2AUDAIAACxSsTI;
+

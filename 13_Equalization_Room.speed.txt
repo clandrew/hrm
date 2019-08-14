@@ -1,0 +1,36 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Equalization Room --
+-- size: 18/9 --
+-- speed: 26/27 --
+
+a:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    SUB      0
+    JUMPZ    c
+    COMMENT  0
+    INBOX   
+    COPYTO   0
+    INBOX   
+    SUB      0
+    JUMPZ    b
+    INBOX   
+    COPYTO   0
+    INBOX   
+    SUB      0
+    JUMPZ    d
+b:
+c:
+    COPYFROM 0
+    OUTBOX  
+d:
+    JUMP     a
+
+
+DEFINE COMMENT 0
+eJyzZGBgeKsY4leoIBtaKXuyxEo2tWOn7J8ZX+V4l25UEF29TCVmg7x6zAYhHcl1hwx5lyraqXVOcu4q
+3e/1OeWz3/SAz37OTkAjGJw9X/c4e/IurffqWmzqN7/lXUBA5ZrAkJr0YMW2B6Eci+LDDp4CqduRsuWg
+eeqSrWWpPOWb044W5mQ25cflcZSA5P5X9i9jBOMtk/9UyTaX1k6ufl/fX6HQ2l9xp020dkpnZvekLoY5
+QV0s8yM62hYU17kvBOmznXTNf8+k1I4tU2U3gvh353K47V05f9PXNdbH1q7vvsgwCkbBKMAJAApAX8Y;
+

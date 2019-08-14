@@ -1,0 +1,31 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Busy Mail Room --
+-- size: 24/3 --
+-- speed: 20/25 --
+
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+    INBOX   
+    OUTBOX  
+
+

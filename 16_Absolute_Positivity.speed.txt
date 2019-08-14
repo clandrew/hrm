@@ -1,0 +1,19 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Absolute Positivity --
+-- size: 9/8 --
+-- speed: 36/36 --
+
+a:
+b:
+    INBOX   
+    JUMPN    c
+    OUTBOX  
+    JUMP     b
+c:
+    COPYTO   0
+    SUB      0
+    SUB      0
+    OUTBOX  
+    JUMP     a
+
+

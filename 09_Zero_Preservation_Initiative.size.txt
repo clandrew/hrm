@@ -1,0 +1,16 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Zero Preservation Initiative --
+-- size: 5/5 --
+-- speed: 28/25 --
+
+
+a:
+b:
+    INBOX   
+    JUMPZ    c
+    JUMP     b
+c:
+    OUTBOX  
+    JUMP     a
+
+

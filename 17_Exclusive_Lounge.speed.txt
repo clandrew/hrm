@@ -1,0 +1,63 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Exclusive Lounge --
+-- size: 40/12 --
+-- speed: 25/28 --
+
+    INBOX   
+    JUMPN    b
+    INBOX   
+    JUMPN    c
+a:
+    COPYFROM 4
+    JUMP     d
+b:
+    INBOX   
+    JUMPN    a
+c:
+    COPYFROM 5
+d:
+    OUTBOX  
+    INBOX   
+    JUMPN    f
+    INBOX   
+    JUMPN    g
+e:
+    COPYFROM 4
+    JUMP     h
+f:
+    INBOX   
+    JUMPN    e
+g:
+    COPYFROM 5
+h:
+    OUTBOX  
+    INBOX   
+    JUMPN    j
+    INBOX   
+    JUMPN    k
+i:
+    COPYFROM 4
+    JUMP     l
+j:
+    INBOX   
+    JUMPN    i
+k:
+    COPYFROM 5
+l:
+    OUTBOX  
+    INBOX   
+    JUMPN    n
+    INBOX   
+    JUMPN    o
+m:
+    COPYFROM 4
+    JUMP     p
+n:
+    INBOX   
+    JUMPN    m
+o:
+    COPYFROM 5
+p:
+    OUTBOX  
+
+

@@ -1,0 +1,139 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Prime Factory --
+-- size: 57/28 --
+-- speed: 241/399 --
+
+    COPYFROM 24
+    COPYTO   2
+    COPYTO   3
+    COPYTO   5
+    COPYTO   7
+    COPYTO   11
+    COPYTO   13
+    COPYTO   17
+    COPYTO   19
+    COPYTO   4
+    BUMPUP   4
+    COPYTO   6
+    COPYTO   8
+    COPYTO   9
+    COPYTO   10
+    COPYTO   12
+    COPYTO   14
+    COPYTO   15
+    COPYTO   16
+    COPYTO   18
+    COPYTO   20
+    BUMPUP   4
+a:
+    COPYFROM 4
+    COPYTO   23
+b:
+    INBOX   
+    COPYTO   22
+    COPYFROM [22]
+    JUMPZ    c
+    JUMP     d
+c:
+    COPYFROM 22
+    OUTBOX  
+    JUMP     b
+d:
+e:
+f:
+    COPYFROM 22
+    COPYTO   21
+    COPYFROM 24
+    COPYTO   0
+g:
+    COPYFROM 21
+    SUB      23
+    COPYTO   21
+    JUMPZ    h
+    JUMPN    i
+    BUMPUP   0
+    JUMP     g
+h:
+    COMMENT  0
+    BUMPUP   0
+    COPYFROM 23
+    OUTBOX  
+    COPYFROM 0
+    COPYTO   22
+    COPYTO   1
+    BUMPDN   1
+    JUMPZ    a
+    JUMP     e
+i:
+    COMMENT  1
+j:
+    BUMPUP   23
+    COPYFROM [23]
+    JUMPZ    k
+    JUMP     j
+k:
+    JUMP     f
+
+
+DEFINE COMMENT 0
+eJzLYWBg8NTPTWA3EKwCMhlEtD+bgegIR9lQNZt7oe8t1sS/tyhM1rPcmXHfjqMkwpGnXMxJsOq6o2Lb
+HXu1zlVWap0bLB63gfTMjAjwPh170s0p8aTb5rTpdSCxfUkMeS0JDHmdcc4FIVEBlULRtxr8Y2SbWRNk
+m0HyDBMVtZwmXJLr6nUXD+h2FpHoaBOLbfOWWto8X2N50waT502Jm0HK3MqrMrfXFCa/aShMBvF9ezJj
+GSZmxv6b+DouZ4b1jPzpf2aAxEumPm77MTmh9WSvYlt/d2b3pK7CiUFdVdO7eg/OqZ/IMr9mkvO835Ps
+Z4PU6mx4Hbd2vWJE8drpAdWrrvkzrZgf1rlUL9FnSV3O2cWzG32WZHbbr3zfv3ltbh9Ivf1KWfUdqyOU
+C9ddU1y7/pri842zVRdsea4rtuOgw6WdMSGCuzJjBXedXARSq7ilNE1sR2Hy+V0Q92adeN3z5rhap/aJ
+rtKMkwfz4s/szZ55rr8i9MKKrjlnIeY3XjdLN73zZ8bmO5ndv2/W5dTcfJ/4+2Zq1LwnSyLFn6dG8b/S
+imMYBaOAygAARpa0zA;
+
+DEFINE COMMENT 1
+eJwrYWBgENF+Hh2ivWHCZO2IQD/dAG8WwwBvO+Nr/pamatFlZn+yyswSWoHKGBTtUjsS7KyzpB3Uoqc7
+KkZMck4Id/BSjDD1M0rJD/Au2+gfUX/eZUVXhKNaZ7SDbDNIzxEPQbntvjzSuoE80hrBl+QkIl/HiUZ1
+lYpG7ZwGktcIjgkRio4JAbEbKtWiv9c8iiiuy4xdX2+fu75etrm0dnL1z+qAyr1V58qPlgdU+pXMbuQv
+0evvLTGa5FlWOqW2asvkL7VaPYb1j9tAZvAu8Ze9Pe+kxIuZXZLrpocofJ66WHvblGurQXIC3Vpxn6dq
+xYHYd+feCpo5f3rA2cXTA7iWKkZ0Lt2Q1Ln0VkP3knPl/ItZCq8uqMuZPa8uR35uU/7j2f0VSnNuNfgv
+jmkC6U3eXJissjk3oXDdhqSta76nf1/tXPB9tWDV1jUR9YbrbjU83XSrQW7rtVqQ2rXrpys93RSiwLc7
+RIFnz2zVPwe/p/85qLQFJDdp55r4/QcyY0Hshaf1+heedi++dp6lUOBSW1HPZe8yryuzG7mvJLROvPi6
+J/z8hgkgdfn3Tpbk3yud8vdGbkL9jdSovzdmB/+4FRH44sH0gHlP7oUyjIJRQCIAAK1pxTk;
+
+DEFINE LABEL 0
+eJxLZWBg2Cy/IclI4fEWIJMhUlPUX0qzv2Ke+tH589QTN4PE9km3Fa1WYsjj0WPIA/FDhdU6YzTUOkHs
+NBvR1WstQ1a9txBcoWdpPUPT+vMkMSetnl5XrZ4utzW9Z1yrpgs7s8x/bi26GqT+itMGE2HngEoxp8xu
+Maed00BiRf5qnaV+hRO/+U5fA+KX+75PBNFrAndmyIbvnSkV4TxvZkTA8muRvEvb4nnKQXJlqQmtX1O1
+er6mnlwE4v9Neh4NohfkBiy/n7t3pkz+mt6rhWqdfiXPO71LX/e4lVvPcCvnXXq87NIKzrJrq/1KJNdF
+599aB9JzN++PTXDRBpMJxRtM/Eo+m7mVTw84VPE5hbFy57T9lUfng9SkNptNndVuNrWn53UPW39Cq2v/
+5Or+bu+ym+085c+bXvesavwzI7sxYPmcNsl1/d2SYHMfz1Zsezw7pmnZrOl1WTOv1X6Ydq3289T5LUbT
+tkzWnbF35t25vEtvzwtZdXue5LrEOa93qc5+v/fFzPd7GUbBKKAjAACN7adC;
+
+DEFINE LABEL 1
+eJyzZGBgULOZHfzE5pLPI9uznlecGBzOu/yxOej53dLaR9Bnu69WnKlfxFqgMoZJzrLN6wNmNy4JiagH
+8S9Ep3awJqR2OCUmtDYmnixxj28rColqK5oW2VUaHqnVExJVOoU3du9M93j72YXpDHNAevZXNuWzl9fl
+XC+wz52d71wgk99VKpM/vW5GwYquqYVres+WbJhwvOzH1ONlJxd5l55bKpN/bfWjnMkr1bPbFoD0SxbU
+2e2qXmNYWrvGsKD+s5lc2+TqO22pHVHtk1dO71izG6SmtDahNbYtpimg+1qtV++1WgYSAevyqswTS7+n
+dy+pyrwxP6RGdl5C6+PZe2c+nt2/7MGc6Wtmzk/c3LlUa5fjite7/q9YsQOkJ2tmase66T+mgtgBu2Ka
+Zm2TbFDfJNmgufFWg86G+S1569/3z9j+Z4bIznNLp+6Yvmbu1lvrdDbcWkeq20bBKKA2AAAvypq9;
+
+DEFINE LABEL 4
+eJwzZmBgmOTs7irtsCLGxPxe8waLhFbtoIRWoDBDVlBqVFbQmngL39y+396CK357r9gBEv9fuSaevdwo
+ZV/Sml7e2INzQGKpzZJByi3nypVbCvdD1GyZ/LN6wwS5tjW9IH5Pz+se7l7epR59shvZ+hM3109M3Fw+
+JWLtxmknF22cVjeraJrginXT723Umpm6bdms1G1Kc2I2yM/lXRo/N7UDpJ9raf8yphWZ3XUrH7cVr33c
+tmGdWqfOhvf9Ohuc5+1edWmF44rJKxlGwSgYBSQDAKPuV5A;
+
+DEFINE LABEL 21
+eJzTZGBg8HUVrRV2bsqfb7c3e4U1T7mepVZPniXvUjWbiLXz7WI2SDrGbPB1nbwSqJThm+/jtvwA94Xa
+Qakdz4Ij6uPDRGtnRlyrFY2a33I5SqsnKJp36YXoDRNOxF2qaknwLjNJcy9enfm881Xmnxkg/dcLrtVe
+L9Drn1D8eMvxsoCrILH/lUcL39ezFGY3thUtbRasWto8uzG7Ua3TrHbDhN6SulkMo2AUjAKaAQBMXUYU
+;
+
+DEFINE LABEL 22
+eJzTZ2BgiLW3nqFoZz0j2bZwooqtYNVNh5Ml3G4nSzzcu0pdPforar3f93O6183qdzk4Z5bDwTlALQxZ
+QTzlWUHT6x6HNM1NClVskw0PqZkYPbmaN3Z6nVdcQitITV6GaO2LrM+TQGz9jNI0EL2/squUvZyn3LMs
+oNK7NKbJu3RFV3epXj97eeHE/5WlU7bWbpn8pXZ245davb0VNfYn7arOXe4om37rUtGtO2nZ9+6Xpd67
+b5Uy/dav5M8HGEbBKBgFFAMA/cdQrA;
+
+DEFINE LABEL 23
+eJxjY2BgeJtRmpaTaZ21OtNsKpDL8DX1uyXDKBgFo2BEAAAiSQga;
+
+DEFINE LABEL 24
+eJzjZmBgmBYp6l+XJBvqVi4b2luiFp2SY5YeFK3WeSPi86S2+LpZVilNcxsqm+YyjIJRMAqGHQAAZPgQ
+sg;
+

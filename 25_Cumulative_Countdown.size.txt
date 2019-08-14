@@ -1,0 +1,34 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Cumulative Countdown --
+-- size: 12/12 --
+-- speed: 111/82 --
+
+a:
+    INBOX   
+    COPYTO   1
+    COPYTO   5
+b:
+    BUMPDN   5
+    JUMPN    c
+    COPYFROM 1
+    ADD      5
+    COPYTO   1
+    JUMP     b
+c:
+    COPYFROM 1
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 1
+eJzTYGBguBcmuKIz7nMKa8LruMqU1KjNaa/jNqSXpuVkTq9TzO1anJj7eAtQGUN45JbJdUlbJoPYHn0n
+Szj6nAuudFZlKrR+Tnlf/zlle83ebOvqiPriup3TMpqOzp/TxrvUtf/cUpD6tmWfU4QWbUnVmMVSqDsj
+pEZ3Rm7fyplV0xPntC0QX9C/jGlFzIYdq+dverXh3kaQevuk550rsp53MoyCUTAKaAoAeUpIbA;
+
+DEFINE LABEL 5
+eJyzZ2BgqPW2nuHqsaY3wOV5p6Tj805Fu9c9r6yqpmdbNc1dZfV8e5rNloNz7f8cm+Rsf/KIh/1JoBaG
+C9F7j0dFrNktGz57/ZzwSyuuRZ5cxBF/cM6PFPvZX1MZ5pSksczfnKa160dK3Qn7pLoTID1hhT+mTi1M
+3XapyOiAd6n1McdK62O1VRv21VbtnQmSl+jYMnlOm/vCOW16e2e1F+4P7SzcH9SltGVS19H5Ad0/pvb0
+aPV49K3osp20omvn5DW9W6b+mPp6RsDy1zNe7wLpz5r5KMJxRUL4jtUMee/X6fXrr9+wT2fDj8MguZTZ
+RpP01xdOnLTz8yTGAzunLTnFsYhhFIyCUcAAAAyuehA;
+

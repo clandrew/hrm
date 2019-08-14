@@ -1,0 +1,11 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Busy Mail Room --
+-- size: 3/3 --
+-- speed: 30/25 --
+
+a:
+    INBOX   
+    OUTBOX  
+    JUMP     a
+
+

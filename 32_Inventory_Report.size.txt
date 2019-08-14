@@ -1,0 +1,55 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Inventory Report --
+-- size: 16/16 --
+-- speed: 432/393 --
+
+a:
+    INBOX   
+    COPYTO   18
+    COPYFROM 14
+    COPYTO   19
+    COPYTO   17
+b:
+    COPYFROM [19]
+    JUMPZ    e
+    SUB      18
+    JUMPZ    c
+    JUMP     d
+c:
+    BUMPUP   17
+d:
+    BUMPUP   19
+    JUMP     b
+e:
+    COPYFROM 17
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 14
+eJyzZGBgOBb/PlEj+H3iu4DPKe8C6nLWBLYVqYYEVB5INJv6NZVhzod094X6Gd5LGhNDVvHGXlvd5Sa6
+GqiN4XTsSQmmxJMSOZkhCvdzb6nMKHikNbloh5V36YqY7lLJdSA193O9y5RbukpB7Ng2lvmxbSu67rTF
+NEV0BFT2d3OUWE1uK7KYcq5825STi5omBCw/1y24AqQ2cr5kw8z5r3cJLeq/4r9Y8Frf4qNngXg+SO7A
+iq7S3aset/1dqdb5f4Va58z5k6tvzO+vOLycpdB+JUdJ2ZrnnfrrQ1ZtXiu5jn0ZxB2jYBSMAuwAAA1M
+Zv8;
+
+DEFINE LABEL 17
+eJxzYmBgsDE5mGdj8ryzwvTa6u+mB/O+mL2O07F6FJFg9ygi2kEteqqTUQpQGcNUJ8Gqei/Bqp8+/RWm
+fgfzyn1L0+q9jFKOu9fleLg7F3C632o44vG+38Fr78xvvicXrQw6uUg1pGkuSO+rTKOUE3FGKf4xVZnn
+YlgKT8dylJik3Wv+lJbbtzntx9QfKU1zDyecW9oWf24pb6z7QqHovTNB+hJzqzJn5z/vFCx2X9hR1rag
+odJs6s9q2ebqaoY8kPz+yhi1TXUJmqnNG0xutrM4c/dqxTFPuNXgNOHHYZB80bRHWlkzt5g/nn3SLXL+
+5xT/xfc2si87eMp9mfUxkPzi2bLNW9dINjCMglEwQgEAeEBxJw;
+
+DEFINE LABEL 18
+eJyzZGBg+JGyxvBHynPdX8mKWm3x05UuRF+SmxZ5SW5mxHQljeA2lzWBsqH5AUYpBgH2s039ItZa+zze
+AtTGwO2m2DYzIqEVxO6Mi6jvjDu5CMRuTFSLBtH6GVo9+hmJm1dnJm5+kTV55bJs+9lxefNbovNjmq4X
+qHX2lkiuA6kzq905bWvt+/5NdVo9qxqXtC9qSWid1JXQ2t+t2HauW63zXLf1jIBuhjnXOk4uymgKWVVc
+J7rarLZulhlQD0j/+/ouydi2LskpnWelz/RcU3Ttn69RP9Ha5t/E59HCXRxgN42CUTAKsAMAXmpd7g;
+
+DEFINE LABEL 19
+eJxzYWBgqPKZ37LHe/4mIJPhiEdqFIiOCRetFY2qmxUSFbFWKLpwIlccT3lb/ME8p8Q/WZ/S/mTlZdTl
+PM32LpPJN5okkz99jXxe5k6QPueKFTuaK3iXVlev6PpeI9us3CJYNadtcnVoZ0xTQPeKLu7eulncvdPX
+9Hff2zir/fn2503Pt2c3Qux2rmAR3V5jLzinrU4gqGu6UtOE3ISmCe/7XfsnrwTJJ85hme+y3Hneio1b
+Ji/d9Lrn+cbpddkbzpVvXnu0EChecHZxV+nkhWqdIQvbFgQuOre0e8m11YXrUrc935i6DaR/0k7Fti1H
+Qlb5X7I+tu32pWsgsZvnBKvUTmn1/Dl4b2Prvr3HGUbBKBhhAAAIKHxb;
+

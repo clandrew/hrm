@@ -1,0 +1,44 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Vowel Incinerator --
+-- size: 13/13 --
+-- speed: 323/323 --
+
+a:
+b:
+    COPYFROM 5
+    COPYTO   7
+    INBOX   
+    COPYTO   6
+c:
+    COPYFROM [7]
+    JUMPZ    d
+    SUB      6
+    JUMPZ    a
+    BUMPUP   7
+    JUMP     c
+d:
+    COPYFROM 6
+    OUTBOX  
+    JUMP     b
+
+
+DEFINE LABEL 5
+eJyzY2BgcPZsyn9lVZhsZvY5pcFob7aj0dHCA0ZdpdUmglViTqkdfK4bJni71c3idvNeMtVJduMiW6Ut
+p/SUtgTqJG6eoTl7PdAIhmRbNd3rjvM1+l3uqXu7LdZm9iy1WBm0ZfLy4KPzU0O0doHUWPhq9SwPVmy7
+ED27EcR/mq21a3Wm4IrVmVXTF+es6IrLW9I+oyChlbMsodWxUq//T9XJRdbVattrq17vcisv3D+j4P1e
+kD65tjW9DhN/fAya9P8/iG80+f//SV2yG8U6m+aKdW6ZPKXzeWdPT0zTzsmTq79NmVy9Zersxi1T3/d/
+m/Jj6p5JzvMudkmuYxgFo2AUgAEAhbZttg;
+
+DEFINE LABEL 6
+eJwzZWBg4HQXreV0t87ydjNLn+T8OSXWfkvqJ3OOkmqT2Y17jZe07zUOWWVjIrluq9mSrWstn2+/6bBi
+h4PXrXVArQxJoaVp8WEH8+aEP26bE940lzfWPtc9/nt6Y6J97rbUWw2F6Z8nFaaLrk7M/ZwyN29NvGTB
+hqTeEsEqxsqA5XZVEWtBZjxvep+o3FKaJtZZOmVS1/PtF7uu3Qzo3rDvSmfIqnutqR0KrZeqFFo3JM1v
+fR49qz0hnK9nfpjThNSo35PWxFdNLkyumhxQWT/xdY9Hn9nUax0McxhGwSgYBUQDAB4gYLc;
+
+DEFINE LABEL 7
+eJxzZGBgOGC0M+OAUcRaIJNhtkaTI4jWtHYuyLDeMOGmQ0L4Faeznhedu9yPu3t7WPi+jlsfcKlqfcDr
+niJ/s6kgtVIRe2dGRdTl3IgoTRON2pDkFacV9ytZK+5r6pp4o/QtqZvTTpY0Jmr1XIjeOW1KFEzPPfVr
+kdOV2uL9ZQ8kCsr9TbqlYpLG4rw5bXbw5rSd0/IyIOri8gSrrKv7Kz7WnSx5X9+Uv75+Z8bP6tyEQxVr
+4o+WG6UIFuf2TSium8VScXLR95r+Zcubzi1Nbjm5aFGL8zyQ/octuQnCXV2lTRMetxlNK5y4cM7OaSDx
+nBnPoz9PbSsK6PZewjAKRsEIBgBOam8H;
+

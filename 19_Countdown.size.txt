@@ -1,0 +1,21 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Countdown --
+-- size: 10/10 --
+-- speed: 130/82 --
+
+a:
+    INBOX   
+b:
+c:
+    COPYTO   0
+    OUTBOX  
+    COPYFROM 0
+    JUMPZ    a
+    JUMPN    d
+    BUMPDN   0
+    JUMP     b
+d:
+    BUMPUP   0
+    JUMP     c
+
+

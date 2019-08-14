@@ -1,0 +1,32 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: The Littlest Number --
+-- size: 13/13 --
+-- speed: 75/75 --
+
+a:
+    INBOX   
+    COPYTO   1
+b:
+c:
+    INBOX   
+    JUMPZ    e
+    SUB      1
+    JUMPN    d
+    JUMP     c
+d:
+    ADD      1
+    COPYTO   1
+    JUMP     b
+e:
+    COPYFROM 1
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 1
+eJyzZ2Bg4Nc9WcKva511VSs1SlWVwy1f0d6+RsbenlmqzeWwpGyovfTruEKFg3mvlQSr1FVmN75QLpy4
+TrFqupVs09xGqaPzQ4WPzr8t4DxvOc+PqXpcmd1AIxm+mO3MMDG3nlFs3lX6yiohXM0mNUrRzihF0pGn
+XMxJskHMqXSKmJNa5yTnkyXcbu8TWz2eR1f5ZMbmB1hnLQm5VrswVKtnYWjbApBZPbFLIncn3woySr8V
+pJ8hGzo37/MkmXyORWnZ7/s/pT3v/JX8vPNwQtX0Y/Eci1gTzi1tTBRcoZM5ez1I7/9KI7Paqsm+tVWS
+60D8i12zVY/1KUa09CduZhgFo2AUMAAAZNhhrw;
+

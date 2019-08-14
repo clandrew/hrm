@@ -1,0 +1,23 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Scavenger Chain --
+-- size: 8/8 --
+-- speed: 69/63 --
+
+a:
+    INBOX   
+b:
+    COPYTO   7
+    JUMPN    a
+    COPYFROM [7]
+    OUTBOX  
+    BUMPUP   7
+    COPYFROM [7]
+    JUMP     b
+
+
+DEFINE LABEL 7
+eJwzYmBg+G56T13P8p56hGOIQpdbiIKp33Sll0FaBktC9toqh17yeRyyJn6j//POb74H5+zxzty5x7vt
+nKmfzyWNYJ9Lc8KPngUawXDFaUWXS8KKrrqkJe0gvk3yowib5LpZIPa21L3ZqzM3JM0oUIsOK9ySOrVw
+RdeEYsU2u6rv6d9r5od9qZ0drN3YVqTdOLtRr2HDBJCeMz1acdy9vJf5emLu9Xf3XwGJ+fZkxtZMkg1N
+mX0rKH7u+8T4udPrEufINptOzexmGAWjYBSQBQCLM1Re;
+

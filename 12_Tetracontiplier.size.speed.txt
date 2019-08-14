@@ -1,0 +1,22 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Tetracontiplier --
+-- size: 14/14 --
+-- speed: 56/56 --
+
+a:
+    INBOX   
+    COPYTO   0
+    ADD      0
+    COPYTO   0
+    ADD      0
+    COPYTO   0
+    ADD      0
+    COPYTO   0
+    ADD      0
+    ADD      0
+    ADD      0
+    ADD      0
+    OUTBOX  
+    JUMP     a
+
+

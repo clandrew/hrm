@@ -1,0 +1,55 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Zero Terminated Sum --
+-- size: 38/10 --
+-- speed: 64/72 --
+
+a:
+    INBOX   
+    JUMPZ    j
+    COPYTO   0
+    INBOX   
+    JUMPZ    i
+    ADD      0
+    COPYTO   0
+    INBOX   
+    JUMPZ    h
+    ADD      0
+    COPYTO   0
+    INBOX   
+    JUMPZ    g
+    ADD      0
+    COPYTO   0
+    INBOX   
+    JUMPZ    f
+    ADD      0
+    COPYTO   0
+    INBOX   
+    JUMPZ    e
+    ADD      0
+    COPYTO   0
+    INBOX   
+    JUMPZ    d
+    ADD      0
+    COPYTO   0
+    INBOX   
+    JUMPZ    c
+    ADD      0
+    COPYTO   0
+    INBOX   
+    JUMPZ    b
+    ADD      0
+    COPYTO   0
+b:
+c:
+d:
+e:
+f:
+g:
+h:
+i:
+    COPYFROM 0
+j:
+    OUTBOX  
+    JUMP     a
+
+

@@ -1,0 +1,21 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: String Storage Floor --
+-- size: 7/7 --
+-- speed: 203/203 --
+
+a:
+    INBOX   
+    COPYTO   24
+b:
+    COPYFROM [24]
+    JUMPZ    a
+    OUTBOX  
+    BUMPUP   24
+    JUMP     b
+
+
+DEFINE LABEL 24
+eJxTZWBgsEnONfqRUme3LbXPa3PavY1G6Uu2AoUZhKK7SncnM+StyLLPBfE7ylgKO8r+zHArZ5hjXX2y
+BCRmVrszI6PJed7yptw+EH9p8/yWJ825fRIdz7eD+Hw958r5eiTXnelZs9ujT7DKtX9nxsEJr+P+TVwR
+UzV5RUz5lDXxr2ekdqyZkdm9bvrrnoMTIOaMglEwCugDAEL9Pxc;
+

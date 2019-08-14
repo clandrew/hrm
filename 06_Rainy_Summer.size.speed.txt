@@ -1,0 +1,14 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: Rainy Summer --
+-- size: 6/6 --
+-- speed: 24/24 --
+
+a:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    ADD      0
+    OUTBOX  
+    JUMP     a
+
+

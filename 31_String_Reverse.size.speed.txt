@@ -1,0 +1,30 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- name: String Reverse --
+-- size: 11/11 --
+-- speed: 118/122 --
+
+a:
+b:
+    INBOX   
+    JUMPZ    c
+    COPYTO   [14]
+    BUMPUP   14
+    JUMP     b
+c:
+d:
+    BUMPDN   14
+    COPYFROM [14]
+    OUTBOX  
+    COPYFROM 14
+    JUMPZ    a
+    JUMP     d
+
+
+DEFINE LABEL 14
+eJzzYmBgiLV/HSdn378MyGRQs5ksD6K3+1pnWfjyLi31O7lofcDzzncBLIUawUsiU0MkgxTCrvnPCRf1
+vxY5O7gtXq//WLz3EpAelRyW+cuyCyeuzrzVoJV1tFA+b292b8mfrP+VLIV6DdPr1jY879RreN9vVssw
+h708YLlfyaUV4oVtC0B61bMree/mmXFfKvrO3Vuyl/9PVYrOl9o+r011B+eA5Nv7bjX8mzi9buXMrtL0
+We7FKbOb8lNmf05Rnb0mXmNWZmzRtNSomkmpUQcnZMYGdXGUhHZeqhLrXNI+qet9v1fvj6nlUw7OuTv3
+4JyJi/bOBJl3eskln+blihHmaz6nhO2YXhewa34L3+4VXSC569tnB9/aFhOis8E6i31Z6ZTLCyevZBgF
+o2CYAgDePoF4;
+
